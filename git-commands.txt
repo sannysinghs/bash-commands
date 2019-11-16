@@ -1,0 +1,19 @@
+#alias
+#======
+
+#git
+alias gst='git status'
+alias gb='git branch'
+alias gac='git add --all && git commit'
+alias gaa='git add .'
+alias gco='git checkout'
+alias gl='git log --oneline -n 10'
+alias gfa='git fetch --all'
+alias grb='git fetch --all && git rebase upstream/master'
+alias stashit='git stash save'
+alias amend='git commit --amend'
+alias gcp='git cherry-pick -m 1'
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/sanny.segue/.sdkman"
+[[ -s "/Users/sanny.segue/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/sanny.segue/.sdkman/bin/sdkman-init.sh"
